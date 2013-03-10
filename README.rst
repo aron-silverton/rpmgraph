@@ -1,4 +1,5 @@
 .. -*- mode: rst -*-
+
 =================
 rpmgraph
 =================
@@ -13,8 +14,9 @@ Display RPM Package Dependency Graph from RPM-database
 
 
 This utility is slightly different from the one coming with RPM:
-- it is working on installed packages not on package-files,
-- it is building a tree of all dependencies of the packages named on
+
+* it is working on installed packages not on package-files,
+* it is building a tree of all dependencies of the packages named on
   the command line.
 
 
@@ -22,12 +24,17 @@ Usage
 ~~~~~~~~~~~~~
 
 ::
+
   rpmgraph.py [-h] [--depth DEPTH] pkgname [pkgname ...]
 
-:positional arguments:
+positional arguments
+----------------------
+
   pkgname
 
-:optional arguments:
+optional arguments
+--------------------
+
   -h, --help     show this help message and exit
   --depth DEPTH  walk the tree that deep, default: 5
 
