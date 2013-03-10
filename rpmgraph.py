@@ -1,7 +1,7 @@
 #/usr/bin/python
 
 # Copyright 2013 by Hartmut Goebel <h.goebel@crazy-compilers.com>
-# Licence: GPLv3+, but not for military use
+# Licence: GNU Public Licence v3 (GPLv3), but not for military use
 
 import subprocess
 import argparse
